@@ -1,0 +1,5 @@
+n1 = input('Número 1: ')
+n2 = input('Número 2: ')
+
+print(f'A soma dos números: {int(n1) + int(n2)}')
+print(f'O produto dos números: {int(n1) * int(n2)}')

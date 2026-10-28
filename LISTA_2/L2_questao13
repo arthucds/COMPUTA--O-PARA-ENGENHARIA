@@ -1,0 +1,12 @@
+letra1 = input("1ª letra: ")
+letra2 = input("2ª letra: ")
+letra3 = input("3ª letra: ")
+
+if letra1 < letra2 and letra1 > letra3:
+    print(f'A letra do meio é {letra1}')
+
+elif letra2 < letra1 and letra2 > letra3:
+    print(f'A letra do meio é {letra2}')
+
+else:
+    print(f'A letra do meio é {letra3}')

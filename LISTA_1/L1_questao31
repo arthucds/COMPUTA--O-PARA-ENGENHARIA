@@ -1,0 +1,7 @@
+from math import sqrt
+
+a = int(input('Valor de a: '))
+b = int(input('Valor de b: '))
+c = int(input('Valor de c: '))
+
+print(f'As raízes são {(-b + sqrt(b**2-4*a*c))/(2*a)} e {(-b - sqrt(b**2-4*a*c))/(2*a)}')

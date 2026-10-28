@@ -1,0 +1,4 @@
+name = input("Qual é o seu nome? ")
+year = input("Em que ano você nasceu? ")
+
+print(f'Oi {name}, você terá {2021 - int(year)} anos no final do ano 2021')

@@ -1,0 +1,7 @@
+almoco = int(input('Quantas vezes por semana você come na cafeteria estudantil? '))
+preco_almoco = float(input('O preço de um almoço típico de estudante? '))
+mantimentos = float(input('Quanto dinheiro você gasta em mantimentos em uma semana? '))
+
+print('\nDespesa média alimentar:')
+print(f'Diário: {((almoco * preco_almoco + mantimentos) / 7)} euros')
+print(f'Semanal: {almoco * preco_almoco + mantimentos} euros')

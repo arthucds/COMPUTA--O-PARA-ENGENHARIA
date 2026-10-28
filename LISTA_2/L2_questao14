@@ -1,0 +1,19 @@
+valor_doacao = int(input("Valor da doação: "))
+
+if valor_doacao >= 5000 and valor_doacao <= 25000:
+    print(f"Valor do imposto: {100 + ((valor_doacao - 5000)* 0.08)} euros")
+
+elif valor_doacao >= 25000 and valor_doacao <= 55000:
+    print(f"Valor do imposto: {1700 + ((valor_doacao - 25000)* 0.10)} euros")
+
+elif valor_doacao >= 55000 and valor_doacao <= 200000:
+    print(f"Valor do imposto: {4700 + ((valor_doacao - 55000)* 0.12)} euros")
+
+elif valor_doacao >= 200000 and valor_doacao <= 1000000:
+    print(f"Valor do imposto: {22100 + ((valor_doacao - 200000)* 0.15)} euros")
+
+elif valor_doacao >= 1000000:
+    print(f"Valor do imposto: {142100 + ((valor_doacao - 1000000)* 0.17)} euros")
+
+else:
+    print("Sem imposto!")

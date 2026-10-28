@@ -1,0 +1,11 @@
+palavra1 = input("Por favor, digite a 1ª palavra: ").lower()
+palavra2 = input("Por favor, digite a 2ª palavra: ").lower()
+
+if palavra1 > palavra2:
+    print(f"{palavra1} vem por último em ordem alfabética.")
+
+if palavra1 < palavra2:
+    print(f"{palavra2} vem por último em ordem alfabética.")
+
+if palavra1 == palavra2:
+    print("Você digitou a mesma palavra duas vezes.")

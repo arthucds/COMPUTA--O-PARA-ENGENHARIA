@@ -1,0 +1,9 @@
+ano_inicial = int(input("Ano: "))
+proximo_ano = ano_inicial + 1
+
+while True:
+    if (proximo_ano % 400 == 0) or (proximo_ano % 4 == 0 and proximo_ano % 100 != 0):
+        print(f'O próximo ano bissexto após {ano_inicial} é {proximo_ano}')
+        break
+
+    proximo_ano += 1

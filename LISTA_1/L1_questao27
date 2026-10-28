@@ -1,0 +1,6 @@
+temperatura = int(input('Por favor, digite uma temperatura (F): '))
+
+print(f'{temperatura} graus Fahrenheit é igual a {(temperatura - 32) * 5 / 9} graus Celsius')
+
+if (temperatura - 32) * 5 / 9 < 0:
+    print('Brr! Está frio aqui!')

@@ -1,0 +1,13 @@
+nome = input("Por favor, digite o seu nome: ")
+donald = ("Huey", "Dewey", "Louie")
+mickey = ("Morty", "Ferdie")
+
+if nome in donald:
+    print("Acho que você pode ser um dos sobrinhos do Pato Donald.")
+
+elif nome in mickey:
+    print("Acho que você pode ser um dos sobrinhos do Mickey Mouse.")
+
+else:
+    print("Você não é sobrinho de nenhum personagem que eu conheça.")
+    

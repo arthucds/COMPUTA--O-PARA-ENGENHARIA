@@ -1,0 +1,9 @@
+nome = input('Por favor, diga-me o seu nome: ')
+
+if nome != 'Jerry':
+    porcao = int(input('Quantas porções de sopa? '))
+    print(f'O custo total é de {porcao * 5.90}')
+    print('Próximo por favor!')
+    
+if nome == 'Jerry':
+    print('Próximo por favor!')

@@ -1,0 +1,7 @@
+alunos = int(input('Quantos alunos do curso? '))
+tamanho_grupo = int(input('Tamanho do grupo desejado? '))
+
+if alunos % 2 != 0:
+    alunos += 1
+
+print(f'Número de grupos formados: {alunos // tamanho_grupo}')

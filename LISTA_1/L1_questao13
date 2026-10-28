@@ -1,0 +1,2 @@
+number = input("Por favor, digite um número: ")
+print(f'{number} vezes 5 é {int(number) * 5}')

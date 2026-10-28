@@ -1,0 +1,22 @@
+pontos = int(input("Quantos pontos [0-100]: "))
+
+if pontos < 0 or pontos > 100:
+    print("Nota: impossível!")
+
+elif pontos >= 0 and pontos <= 49:
+    print("Nota: reprovado")
+
+elif pontos >= 50 and pontos <= 59:
+    print("Nota: 1")
+
+elif pontos >= 60 and pontos <= 69:
+    print("Nota: 2")
+
+elif pontos >= 70 and pontos <= 79:
+    print("Nota: 3")
+
+elif pontos >= 80 and pontos <= 89:
+    print("Nota: 4")
+
+else:
+    print("Nota: 5")

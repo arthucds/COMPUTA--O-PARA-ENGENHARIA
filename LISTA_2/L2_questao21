@@ -1,0 +1,13 @@
+historia = ""
+ultima_palavra = ""
+
+while True:
+    palavra = input('Por favor, digite uma palavra: ')
+    
+    if palavra == 'fim' or palavra == ultima_palavra:
+        break
+        
+    historia = historia + " " + palavra
+    ultima_palavra = palavra
+
+print(historia.strip())

@@ -1,0 +1,4 @@
+temperatura = float(input("Por favor, digite um número: "))
+
+print(f"Parte inteira: {int(temperatura)}")
+print(f"Parte decimal: {temperatura - int(temperatura):.2f}")

@@ -1,0 +1,4 @@
+numero = int(input('Por favor, digite um número: '))
+
+if numero == 1984:
+    print('Orwell')

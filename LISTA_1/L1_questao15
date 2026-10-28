@@ -1,0 +1,3 @@
+day = input("Quantos dias? ")
+
+print(f'Segundos em muitos dias: {int(day) * 24 * 60 * 60}')

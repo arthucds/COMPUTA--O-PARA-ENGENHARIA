@@ -1,0 +1,6 @@
+n1 = input('Número 1: ')
+n2 = input('Número 2: ')
+n3 = input('Número 3: ')
+n4 = input('Número 4: ')
+
+print(f'A soma dos números é {int(n1) + int(n2) + int(n3) + int(n4)} e a média é {(int(n1) + int(n2) + int(n3) + int(n4)) / 4}')

@@ -1,0 +1,28 @@
+print("Por favor, digite números inteiros. Digite 0 para terminar.")
+
+quantidade = 0
+soma = 0
+quantidade_positivos = 0
+quantidade_negativos = 0
+
+while True:
+    numero = int(input("Número: "))
+
+    if numero == 0:
+        break
+
+    quantidade += 1
+    soma += numero
+    media = soma / quantidade
+
+    if numero > 0:
+        quantidade_positivos += 1
+
+    if numero < 0:
+        quantidade_negativos += 1
+
+print(f'Números digitados {quantidade}')
+print(f'A soma dos números é {soma}')
+print(f'A média dos números é {media}')
+print(f'Números positivos {quantidade_positivos}')
+print(f'Números negativos {quantidade_negativos}')

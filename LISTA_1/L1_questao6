@@ -1,0 +1,3 @@
+name = input('Digite um nome: ')
+year = input('Digite um ano: ')
+print(f'\n{name} é um(a) valente cavaleiro(a), nascido(a) no ano de {year}. Certa manhã, {name} acordou com um barulho assustador: um dragão estava se aproximando da vila. Apenas {name} poderia salvar os moradores da vila.')

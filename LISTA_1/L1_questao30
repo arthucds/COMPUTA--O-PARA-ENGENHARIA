@@ -1,0 +1,24 @@
+print ('Qual é a previsão do tempo para amanhã?')
+
+temperatura = (int(input('Temperatura: ')))
+chuva = (input('Vai chover (sim/não): '))
+
+if temperatura > 20:
+    print('Use jeans e uma camiseta')
+
+if temperatura < 20 and temperatura > 10:
+    print('Use jeans e uma camiseta')
+    print('Eu recomendo um jumper também')
+
+if temperatura < 10 and temperatura > 5:
+    print('Use jeans e uma camiseta')
+    print('Eu recomendo um jumper também')
+    print('Leva um casaco contigo')
+
+if chuva == 'sim':
+    print('Use jeans e uma camiseta')
+    print('Eu recomendo um jumper também')
+    print('Leva um casaco contigo')
+    print('Faça um casaco quente, na verdade')
+    print('Acho que as luvas estão em ordem')
+    print('Não se esqueça do seu guarda-chuva!')

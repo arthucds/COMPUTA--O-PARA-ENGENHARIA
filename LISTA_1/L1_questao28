@@ -1,0 +1,9 @@
+salario_por_hora = float(input('Salário por hora: '))
+horas_trabalhadas = int(input('Horas trabalhadas: '))
+dia_da_semana = input('Dia da semana: ')
+
+if dia_da_semana == 'Domingo':
+    print(f'Salários diários: {(salario_por_hora * 2) * horas_trabalhadas} euros')
+
+else:
+    print(f'Salários diários: {salario_por_hora * horas_trabalhadas} euros')

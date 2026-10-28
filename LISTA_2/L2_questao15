@@ -1,0 +1,11 @@
+print("oi")
+
+while True:
+    continuar = input("Vamos continuar? ")
+
+    if continuar == "não":
+        print("tudo bem então")
+        break
+
+    else:
+        print("oi")

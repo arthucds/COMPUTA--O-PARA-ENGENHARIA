@@ -1,0 +1,8 @@
+name = input("Nome: ")
+family_name = input("Sobrenome: ")
+address = input("Endereço: ")
+city_cep = input("Cidade e CEP: ")
+
+print(name + " " + family_name)
+print(address)
+print(city_cep)

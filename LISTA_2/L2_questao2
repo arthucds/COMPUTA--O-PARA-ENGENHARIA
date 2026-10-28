@@ -1,0 +1,8 @@
+word = input("Por favor, digite uma palavra: ")
+
+if len(word) == 1:
+    print("Obrigado!")
+
+else:
+    print(f"Há {len(word)} letras na palavra {word}")
+    print("Obrigado!")

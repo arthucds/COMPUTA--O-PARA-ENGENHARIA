@@ -1,0 +1,5 @@
+n1 = int(input("Por favor, digite o primeiro número: "))
+n2 = int(input("Por favor, digite o segundo número: "))
+n3 = int(input("Por favor, digite o terceiro número: "))
+
+print(f"O produto é {n1 * n2 * n3}")
