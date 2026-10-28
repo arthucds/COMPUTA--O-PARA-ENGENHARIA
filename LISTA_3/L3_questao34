@@ -1,0 +1,14 @@
+def squared(text, size):
+    total_len = len(text)
+    linha = 0
+
+    while linha < size:
+        coluna = 0
+        linha_atual = ""
+        
+        while coluna < size:
+            indice = (linha * size + coluna) % total_len
+            linha_atual += text[indice]
+            coluna += 1
+        print(linha_atual)
+        linha += 1

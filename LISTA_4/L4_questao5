@@ -1,0 +1,10 @@
+def triangle(number):
+    character = "#"
+    linha = 0
+
+    while linha < number:
+        print(character * (linha + 1))
+        linha += 1
+
+    def line(number, character):
+        print(character * number)

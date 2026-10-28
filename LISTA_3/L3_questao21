@@ -1,0 +1,9 @@
+palavra = input("Por favor, digite uma palavra: ")
+caractere = input("Por favor, digite um caractere: ")
+
+posicao = palavra.find(caractere)
+
+while posicao != -1:
+    if len(palavra) >= posicao + 3:
+        print(palavra[posicao:posicao + 3])
+    posicao = palavra.find(caractere, posicao + 1)

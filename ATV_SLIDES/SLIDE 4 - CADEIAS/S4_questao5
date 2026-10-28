@@ -1,0 +1,18 @@
+# Questão 5 — Pequeno cadastro
+# Escreva um programa em Python
+
+# • Peça um nome de usuário com input().
+# • Remova os espaços do início e do fim.
+# • Transforme o nome em letras minúsculas.
+# • Exiba o nome tratado e sua quantidade de caracteres.
+
+# Entrada de exemplo: " ALUNO01 "
+# Saída esperada:
+# Usuário: aluno01
+# Caracteres: 7
+
+usuario = input("Usuário: ")
+
+usuario_limpo = usuario.strip()
+print(f"Usuário: {usuario_limpo.lower()}")
+print(f"Caracteres: {len(usuario_limpo)}")

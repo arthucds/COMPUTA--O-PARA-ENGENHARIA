@@ -1,0 +1,16 @@
+def chessboard(numero):
+    linha = 0
+
+    while linha < numero:
+        coluna = 0
+        while coluna < numero:
+            if (linha + coluna) % 2 == 0:
+                print("1", end="")
+            else:
+                print("0", end="")
+            coluna += 1
+        print()
+        linha += 1
+
+if __name__ == "__main__":
+    chessboard(3)

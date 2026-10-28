@@ -1,0 +1,13 @@
+# Questão 1 — Contando caracteres
+# Leia e responda
+
+texto = "Bom dia"
+print(len(texto))
+
+# • Qual número será exibido?
+# ---------------------------
+# 7.
+
+# • Explique se o espaço entre as palavras entra na contagem.
+# -----------------------------------------------------------
+# Sim, o espaço entre as palavras entra na contagem, pois é um caractere válido.

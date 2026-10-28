@@ -1,0 +1,12 @@
+def square(number, character):
+    linha = 0
+
+    while linha < number:
+        print(character * number)
+        linha += 1
+
+    def line(number, character):
+        print(character * number)
+
+if __name__ == "__main__":
+    square(3, "o")

@@ -1,0 +1,10 @@
+def square_of_hashes(number):
+    character = "#"
+    linha = 0
+
+    while linha < number:
+        print(character * number)
+        linha += 1
+
+    def line(number, character):
+        print(character * number)

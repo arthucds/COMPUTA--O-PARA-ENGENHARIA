@@ -1,0 +1,15 @@
+while True:
+    numero = int(input("Por favor, digite um número: "))
+
+    if numero <= 0:
+        print("Obrigado e até logo!")
+        break
+
+    fatorial = 1
+    i = 1
+
+    while i <= numero:
+        fatorial *= i
+        i += 1
+
+    print(f"O fatorial do número {numero} é {fatorial}")

@@ -1,0 +1,16 @@
+# Questão 4 — Separando e juntando
+# Complete os dois espaços
+
+cores = "azul,verde,rosa"
+lista = cores.________(",")
+resultado = "-".________(lista)
+print(resultado)
+
+# • Separe as cores usando a vírgula.
+# • Depois, junte as cores usando um hífen.
+
+
+cores = "azul,verde,rosa"
+lista = cores.split(",")
+resultado = "-".join(lista)
+print(resultado)

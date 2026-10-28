@@ -1,0 +1,7 @@
+frase = input("Por favor, digite uma frase: ")
+
+i = 0
+while i < len(frase):
+    if frase[i] != " " and (i == 0 or frase[i - 1] == " "):
+        print(frase[i])
+    i += 1

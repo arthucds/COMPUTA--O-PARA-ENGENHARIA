@@ -1,0 +1,9 @@
+numero = int(input("Por favor, digite um número: "))
+a = 1
+
+while a <= numero:
+    b = 1
+    while b <= numero:
+        print(f"{a} x {b} = {a * b}")
+        b += 1
+    a += 1

@@ -1,0 +1,18 @@
+def shape(number1, character1, number2, character2):
+    linha = 0
+
+    while linha < number1:
+        print(character1 * (linha + 1))
+        linha += 1
+
+    linha = 0
+    
+    while linha < number2:
+        print(character2 * number1)
+        linha += 1
+
+    def line(number, character):
+        print(character * number)
+
+if __name__ == "__main__":
+    shape(5, "X", 3, "*")

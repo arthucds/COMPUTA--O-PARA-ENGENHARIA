@@ -1,0 +1,14 @@
+string = input("Por favor, digite uma string: ")
+substring = input("Por favor, digite uma substring ")
+
+primeira_posicao = string.find(substring)
+
+if primeira_posicao == -1:
+    print("A substring não ocorre duas vezes na string.")
+else:
+    segunda_posicao = string.find(substring, primeira_posicao + 1)
+
+    if segunda_posicao != -1:
+        print(f"A segunda ocorrência da substring está no índice {segunda_posicao}.")
+    else:
+        print("A substring não ocorre duas vezes na string.")

@@ -1,0 +1,22 @@
+string = input("Por favor, digite uma string: ")
+vogal1 = "a"
+vogal2 = "e"
+vogal3 = "o"
+
+if vogal1 in string:
+    print("a encontrada")
+
+if vogal1 not in string:
+    print("a não encontrada")
+
+if vogal2 in string:
+    print("e encontrada")
+
+if vogal2 not in string:
+    print("e não encontrada")
+
+if vogal3 in string:
+    print("o encontrada")
+
+if vogal3 not in string:
+    print("o não encontrada")

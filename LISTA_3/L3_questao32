@@ -1,0 +1,6 @@
+def hash_square(length):
+    linha = 0
+
+    while linha < length:
+        print("#" * length)
+        linha += 1

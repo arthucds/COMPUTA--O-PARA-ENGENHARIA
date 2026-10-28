@@ -1,0 +1,10 @@
+# tá dando erro, tá falhando de qualquer jeito
+
+string = input("Por favor, digite uma string: ")
+
+while True:
+    if string == "":
+        break
+
+    print("\n" + string)
+    print("-" * len(string))

@@ -1,0 +1,14 @@
+# Questão 2 — Limpando e padronizando
+# Observe a sequência de operações
+
+nome = " Ana Silva "
+resultado = nome.strip().upper()
+print("[" + resultado + "]")
+
+# • Qual texto será exibido entre os colchetes?
+# ---------------------------------------------
+# [ANA SILVA]
+
+# • Explique o que strip() e upper() fazem.
+# ------------------------------------------
+# O strip() remove os espaços em branco no início e no final da string, enquanto o upper() converte todos os caracteres da string para maiúsculas.

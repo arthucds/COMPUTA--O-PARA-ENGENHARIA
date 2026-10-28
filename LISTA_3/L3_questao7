@@ -1,0 +1,11 @@
+limite = int(input("Limite: "))
+soma = 0 
+numero = 1
+calculo = []
+
+while soma < limite:
+    calculo.append(str(numero))
+    soma += numero
+    numero += 1
+    
+print(f"A soma consecutiva: {' + '.join(calculo)} = {soma}")

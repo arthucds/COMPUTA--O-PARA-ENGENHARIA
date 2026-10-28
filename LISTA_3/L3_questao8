@@ -1,0 +1,4 @@
+string = input("Por favor, digite uma string: ")
+quantidade = int(input("Por favor, digite uma quantidade: "))
+
+print(string * quantidade)

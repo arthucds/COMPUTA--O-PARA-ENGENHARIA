@@ -1,0 +1,7 @@
+largura = int(input("Largura: "))
+altura = int(input("Altura: "))
+linha = 0
+
+while linha < altura:
+    print("#" * largura)
+    linha += 1

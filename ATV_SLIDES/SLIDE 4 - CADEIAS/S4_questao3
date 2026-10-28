@@ -1,0 +1,14 @@
+# Questão 3 — Buscando e contando
+# Descubra as três saídas
+
+fruta = "banana"
+print(fruta.find("na"))
+print(fruta.count("a"))
+print("maçã" in fruta)
+
+# • Escreva o resultado de cada print(), na ordem.
+# • Lembre-se: os índices começam em zero.
+# ------------------------------------------------
+# 2
+# 3
+# False

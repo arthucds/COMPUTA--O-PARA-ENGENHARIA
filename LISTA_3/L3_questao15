@@ -1,0 +1,4 @@
+string = input("Por favor, digite uma string: ")
+asteriscos = "*" * (20 - len(string))
+
+print(asteriscos + string)

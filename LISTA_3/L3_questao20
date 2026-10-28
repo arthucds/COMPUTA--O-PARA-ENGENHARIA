@@ -1,0 +1,7 @@
+palavra = input("Por favor, digite uma palavra: ")
+caractere = input("Por favor, digite um caractere: ")
+posicao = palavra.find(caractere)
+
+if posicao != -1 and len(palavra) >= posicao + 3:
+    primeiro_fatiamento = palavra[posicao:posicao + 3]
+    print(primeiro_fatiamento)

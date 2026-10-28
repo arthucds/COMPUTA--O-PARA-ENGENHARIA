@@ -1,0 +1,7 @@
+string = input("Por favor, digite uma string: ")
+
+if string[1] == string[-2]:
+    print(f"O segundo e o penúltimo caractere são {string[1]}")
+
+else:
+    print("O segundo e o penúltimo caractere são diferentes")

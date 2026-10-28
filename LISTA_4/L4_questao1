@@ -1,0 +1,12 @@
+while True:
+    editor = input("Editor: ").strip().casefold()
+
+    if editor in {"word", "notepad"}:
+        print("horrível")
+        
+    elif editor == "visual studio code":
+        print("uma excelente escolha!")
+        break
+
+    else:
+        print("não é bom")

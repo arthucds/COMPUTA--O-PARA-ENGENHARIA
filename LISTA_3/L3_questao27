@@ -1,0 +1,12 @@
+numero = int(input("Por favor, digite um número: "))
+inicio = 1
+fim = numero
+
+while inicio <= fim:
+    print(inicio)
+
+    if inicio != fim:
+        print(fim)
+
+    inicio += 1
+    fim -= 1

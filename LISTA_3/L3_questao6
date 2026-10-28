@@ -1,0 +1,9 @@
+limite = int(input("Limite: "))
+soma = 0 
+numero = 1
+
+while soma < limite:
+    soma += numero
+    numero += 1
+
+print(soma)
