@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Página prática de um clube de leitura.">
+    <title>Entrelinhas — Clube de leitura</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a class="marca" href="#inicio" aria-label="Entrelinhas, página inicial">
+        Entrelinhas<span aria-hidden="true">✦</span>
+      </a>
+      <nav aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#livro">Livro do mês</a>
+        <a href="#progresso">Meu progresso</a>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="apresentacao" aria-labelledby="titulo-principal">
+        <div>
+          <p class="destaque">Um clube para ler e trocar ideias</p>
+          <h1 id="titulo-principal">Toda boa história começa uma conversa.</h1>
+          <p>
+            Escolhemos um livro por vez, fazemos uma leitura compartilhada e
+            reservamos um encontro para contar o que descobrimos.
+          </p>
+          <a class="botao-link" href="#livro">Ver o livro do mês</a>
+        </div>
+        <p class="citacao" aria-label="Frase da aula">
+          “As páginas podem ser individuais.<br>A conversa é coletiva.”
+        </p>
+      </section>
+
+      <section id="sobre" class="secao sobre" aria-labelledby="titulo-sobre">
+        <div class="secao-titulo">
+          <p class="destaque">A comunidade</p>
+          <h2 id="titulo-sobre">Sobre o clube</h2>
+        </div>
+        <div class="sobre-grid">
+          <p>
+            O Entrelinhas é um espaço aberto para ler com calma, descobrir
+            diferentes interpretações e ouvir pessoas diferentes.
+          </p>
+          <ul>
+            <li><strong>Quando</strong> · quartas-feiras, às 16h</li>
+            <li><strong>Como</strong> · um capítulo por semana</li>
+            <li><strong>Quem</strong> · estudantes e pessoas curiosas</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="livro" class="secao" aria-labelledby="titulo-livro">
+        <div class="secao-titulo">
+          <p class="destaque">Nosso próximo encontro</p>
+          <h2 id="titulo-livro">Livro do mês</h2>
+        </div>
+
+        <article class="cartao-livro">
+          <img
+            class="capa-livro"
+            src="img/pp.jpg"
+            alt="Capa do livro A música da minha vida"
+          >
+
+          <div class="livro-detalhes">
+            <p class="genero">Literatura infantojuvenil · ficção</p>
+            <h3>A música da minha vida</h3>
+            <p>
+              Entre amores, segredos de família e conflitos na escola, uma adolescente
+              usa a música para lidar com as dores e descobertas do amadurecimento.
+            </p>
+            <blockquote>
+              "Algumas melodias tristes também têm seu valor e somos nós os
+              únicos responsáveis pela trilha sonora da nossa história."
+            </blockquote>
+            <p class="proximo-capitulo">
+              Próxima leitura: <strong>Capítulo 1 — Coisas que eu sei</strong>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section id="progresso" class="secao progresso" aria-labelledby="titulo-progresso">
+        <div>
+          <p class="destaque">Sua leitura</p>
+          <h2 id="titulo-progresso">Acompanhe as leituras concluídas</h2>
+          <p>
+            Concluiu um capítulo ou uma conversa coletiva? Registre aqui.
+            Use Reiniciar para começar uma nova etapa.
+          </p>
+        </div>
+
+        <div class="painel-contador" aria-live="polite">
+          <p class="contador-label">Leituras concluídas</p>
+          <strong id="total" class="contador-numero">0</strong>
+          <div class="contador-acoes">
+            <button id="concluir-leitura" class="botao" type="button">
+              Concluir leitura
+            </button>
+            <button id="reiniciar" class="botao botao-secundario" type="button">
+              Reiniciar
+            </button>
+          </div>
+
+          <div class="python-contador">
+            <button id="botao-python" class="botao" type="button">
+              Executar Python
+            </button>
+            <p id="saida-python">A resposta aparecerá aqui.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <p><strong>Entrelinhas</strong> · Clube de leitura da turma</p>
+      <a href="#inicio">Voltar ao início ↑</a>
+    </footer>
+  </body>
+</html>
